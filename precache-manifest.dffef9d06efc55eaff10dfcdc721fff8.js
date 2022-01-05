@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e803489eafaed0e2ee781ec140a0589",
+    "revision": "b23f009303b4dc40c938da592faa07c3",
     "url": "/shishchat/index.html"
   },
   {
-    "revision": "c9c7ad104e7aa4ef26a7",
+    "revision": "60a83e286453cef3bb9d",
     "url": "/shishchat/static/css/main.016158bf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shishchat/static/js/2.dcc67109.chunk.js.LICENSE"
   },
   {
-    "revision": "c9c7ad104e7aa4ef26a7",
-    "url": "/shishchat/static/js/main.6f0d1fe6.chunk.js"
+    "revision": "60a83e286453cef3bb9d",
+    "url": "/shishchat/static/js/main.bc927032.chunk.js"
   },
   {
     "revision": "7c64388cc11b98248ee6",
