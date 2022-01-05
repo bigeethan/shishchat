@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shishchat/static/css/main.016158bf.chunk.css",
-    "main.js": "/shishchat/static/js/main.62cef525.chunk.js",
-    "main.js.map": "/shishchat/static/js/main.62cef525.chunk.js.map",
+    "main.js": "/shishchat/static/js/main.a4d20b98.chunk.js",
+    "main.js.map": "/shishchat/static/js/main.a4d20b98.chunk.js.map",
     "runtime-main.js": "/shishchat/static/js/runtime-main.6a17a8db.js",
     "runtime-main.js.map": "/shishchat/static/js/runtime-main.6a17a8db.js.map",
     "static/js/2.9f4a5d01.chunk.js": "/shishchat/static/js/2.9f4a5d01.chunk.js",
     "static/js/2.9f4a5d01.chunk.js.map": "/shishchat/static/js/2.9f4a5d01.chunk.js.map",
     "index.html": "/shishchat/index.html",
-    "precache-manifest.628e5621840774b6b9d3aed0c26c72e6.js": "/shishchat/precache-manifest.628e5621840774b6b9d3aed0c26c72e6.js",
+    "precache-manifest.9b7ea81e0c40ee84d81d14c2351d218d.js": "/shishchat/precache-manifest.9b7ea81e0c40ee84d81d14c2351d218d.js",
     "service-worker.js": "/shishchat/service-worker.js",
     "static/css/main.016158bf.chunk.css.map": "/shishchat/static/css/main.016158bf.chunk.css.map",
     "static/js/2.9f4a5d01.chunk.js.LICENSE": "/shishchat/static/js/2.9f4a5d01.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6a17a8db.js",
     "static/js/2.9f4a5d01.chunk.js",
     "static/css/main.016158bf.chunk.css",
-    "static/js/main.62cef525.chunk.js"
+    "static/js/main.a4d20b98.chunk.js"
   ]
 }
