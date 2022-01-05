@@ -11,24 +11,6 @@ import AuthService from "./pages/AuthService";
 import User from "./pages/User";
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-          currentUser: undefined
-        };
-    }
-
-    componentDidMount() {
-        const user = AuthService.getCurrentUser();
-
-        if (user) {
-          this.setState({
-            currentUser: user
-          });
-        }
-    }
-
     render() {
         return (
                   <Router>
