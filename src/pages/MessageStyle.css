@@ -1,0 +1,32 @@
+.title1 {
+    text-align: left;
+    color: #269CEB;
+    margin-top: 0px;
+    margin-left: 5px;
+    float: left;
+    clear: both;
+}
+
+.title2 {
+    text-align: left;
+    color: #FF9D00;
+    margin-top: 0px;
+    margin-left: 5px;
+    float: left;
+    clear: both;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+.messages {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    height: 500px;
+    width: 750px;
+    overflow-y: scroll;
+    border: black solid 1px;
+}

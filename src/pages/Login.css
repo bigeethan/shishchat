@@ -1,0 +1,36 @@
+.top {
+    border: black solid 2px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-group-username Input {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-group-username label {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.form-group-password label {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-group-password Input {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-group-buttons Button {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}

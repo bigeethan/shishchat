@@ -1,0 +1,18 @@
+* {
+    text-align: center;
+}
+
+.page {
+    border: black solid 2px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.meet-shishir img {
+    width: 400px;
+    height: 537.5px;
+}
+
+.meet-shishir p {
+    font-size: 20px;
+}
