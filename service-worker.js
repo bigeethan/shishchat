@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shishchat/precache-manifest.dffef9d06efc55eaff10dfcdc721fff8.js"
+  "/shishchat/precache-manifest.f72efe560454e5f2f798170f62c92cad.js"
 );
 
 self.addEventListener('message', (event) => {
