@@ -89,7 +89,7 @@ class Chat extends Component {
                                             </tr>
                                         </table>
                                     </div>
-                    <SockJsClient url='http://localhost:8080/websocket-chat/'
+                    <SockJsClient url='https://shishchat.herokuapp.com/websocket-chat'
                                   topics={['/topic/user']}
                                   onConnect={() => {
                                       console.log("connected");
