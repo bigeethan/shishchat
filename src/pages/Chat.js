@@ -80,7 +80,9 @@ class Chat extends Component {
                                                     <TextField id="outlined-basic" label="Enter Message to Send" variant="outlined"
                                                                onChange={(event) => {
                                                                    this.setState({typedMessage: event.target.value});
-                                                               }}/>
+                                                               }}
+                                                               inputProps={{style: { textAlign: 'left' }}}
+                                                               />
                                                 </td>
                                                 <td>
                                                     <Button variant="contained" color="primary"
