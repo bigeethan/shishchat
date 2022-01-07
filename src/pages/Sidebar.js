@@ -20,7 +20,7 @@ function Sidebar() {
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/chat">Chat</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><a href="/" className="nav-link" onClick={logOut}>Log Out</a></li>
+        <li><Link to="/login"><a className="nav-link" onClick={logOut}>Log Out</a></Link></li>
       </ul>
     </nav>
   );
