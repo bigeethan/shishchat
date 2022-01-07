@@ -9,13 +9,15 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AuthService from "./pages/AuthService";
 import User from "./pages/User";
+import Loading from "./pages/Loading";
 
 class App extends Component {
     render() {
         return (
                   <Router>
                     <Switch>
-                      <Route path="/" exact component={Login} />
+                      <Route path="/" exact component={Loading}/>
+                      <Route path="/login" component={Login} />
                       <Route path="/signup" component={Register} />
                       <Route path="/home" component={Home} />
                       <Route path="/chat" component={Chat} />

@@ -81,7 +81,7 @@ class Chat extends Component {
                                                                onChange={(event) => {
                                                                    this.setState({typedMessage: event.target.value});
                                                                }}
-                                                               inputProps={{style: { textAlign: 'left' }}}
+                                                               inputProps={{style: { textAlign: 'left', width: 650 }}}
                                                                />
                                                 </td>
                                                 <td>

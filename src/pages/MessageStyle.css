@@ -28,5 +28,8 @@
     height: 500px;
     width: 750px;
     overflow-y: scroll;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
     border: black solid 1px;
 }
