@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "310fe33642e468bd55cd77f5e5f9786b",
+    "revision": "420c76465b93d28342d2fb08b2f95ff3",
     "url": "/shishchat/index.html"
   },
   {
-    "revision": "a938bcda9a9e90ba05c6",
+    "revision": "01c534730024415b31cf",
     "url": "/shishchat/static/css/main.1e1042e8.chunk.css"
   },
   {
-    "revision": "3057940e9efb719fc848",
-    "url": "/shishchat/static/js/2.bcdf5f59.chunk.js"
+    "revision": "7a0b04250d1c0ffa913c",
+    "url": "/shishchat/static/js/2.38a05333.chunk.js"
   },
   {
     "revision": "bad4ae7a0c59b675b77d234ea1919dc7",
-    "url": "/shishchat/static/js/2.bcdf5f59.chunk.js.LICENSE"
+    "url": "/shishchat/static/js/2.38a05333.chunk.js.LICENSE"
   },
   {
-    "revision": "a938bcda9a9e90ba05c6",
-    "url": "/shishchat/static/js/main.6f88af05.chunk.js"
+    "revision": "01c534730024415b31cf",
+    "url": "/shishchat/static/js/main.439805d9.chunk.js"
   },
   {
     "revision": "7c64388cc11b98248ee6",
