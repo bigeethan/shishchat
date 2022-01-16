@@ -2,8 +2,42 @@
     text-align: center;
 }
 
-.page {
+.top-page {
     border: black solid 2px;
     width: 400px;
     margin: 0 auto;
+}
+
+.post-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 200px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.posts {
+    margin-top: 25px;
+    border: 2px solid black;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+#secret {
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+#user {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+}
+
+#text {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
 }

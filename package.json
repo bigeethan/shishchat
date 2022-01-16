@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.24.0",
     "cdbreact": "^1.2.1",
+    "file-saver": "^2.0.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.0.0",
