@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/shishchat/static/css/main.a203f28f.chunk.css",
-    "main.js": "/shishchat/static/js/main.8fc15b4c.chunk.js",
-    "main.js.map": "/shishchat/static/js/main.8fc15b4c.chunk.js.map",
+    "main.css": "/shishchat/static/css/main.e74a696c.chunk.css",
+    "main.js": "/shishchat/static/js/main.f630d3fd.chunk.js",
+    "main.js.map": "/shishchat/static/js/main.f630d3fd.chunk.js.map",
     "runtime-main.js": "/shishchat/static/js/runtime-main.6a17a8db.js",
     "runtime-main.js.map": "/shishchat/static/js/runtime-main.6a17a8db.js.map",
-    "static/js/2.33a7870c.chunk.js": "/shishchat/static/js/2.33a7870c.chunk.js",
-    "static/js/2.33a7870c.chunk.js.map": "/shishchat/static/js/2.33a7870c.chunk.js.map",
+    "static/js/2.867da9b3.chunk.js": "/shishchat/static/js/2.867da9b3.chunk.js",
+    "static/js/2.867da9b3.chunk.js.map": "/shishchat/static/js/2.867da9b3.chunk.js.map",
     "index.html": "/shishchat/index.html",
-    "precache-manifest.ca34baa31aebafc8e1aca526fc78b65a.js": "/shishchat/precache-manifest.ca34baa31aebafc8e1aca526fc78b65a.js",
+    "precache-manifest.d9503efc9e972ba328bfa0282d41283a.js": "/shishchat/precache-manifest.d9503efc9e972ba328bfa0282d41283a.js",
     "service-worker.js": "/shishchat/service-worker.js",
-    "static/css/main.a203f28f.chunk.css.map": "/shishchat/static/css/main.a203f28f.chunk.css.map",
-    "static/js/2.33a7870c.chunk.js.LICENSE": "/shishchat/static/js/2.33a7870c.chunk.js.LICENSE"
+    "static/css/main.e74a696c.chunk.css.map": "/shishchat/static/css/main.e74a696c.chunk.css.map",
+    "static/js/2.867da9b3.chunk.js.LICENSE": "/shishchat/static/js/2.867da9b3.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.6a17a8db.js",
-    "static/js/2.33a7870c.chunk.js",
-    "static/css/main.a203f28f.chunk.css",
-    "static/js/main.8fc15b4c.chunk.js"
+    "static/js/2.867da9b3.chunk.js",
+    "static/css/main.e74a696c.chunk.css",
+    "static/js/main.f630d3fd.chunk.js"
   ]
 }
