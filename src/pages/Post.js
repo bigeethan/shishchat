@@ -15,7 +15,6 @@ class Post extends Component {
 
         this.state = {
             user: AuthService.getCurrentUser(),
-            postName: "",
             postText: "",
             postImageUrl: ""
         }

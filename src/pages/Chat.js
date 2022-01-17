@@ -1,4 +1,4 @@
-import React, {Component, useContext} from 'react';
+import React, {Component, useContext, useEffect, useRef} from 'react';
 import SockJsClient from 'react-stomp';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
@@ -8,6 +8,7 @@ import Sidebar from "./Sidebar";
 import Login from "./Login";
 import AuthService from "./AuthService";
 import User from "./User";
+import ScrollToBottom from 'react-scroll-to-bottom';
 
 class Chat extends Component {
     constructor(props) {
@@ -34,24 +35,27 @@ class Chat extends Component {
             name: this.state.name,
             message: this.state.typedMessage
         }));
+        this.setState({typedMessage: ""});
     };
 
     displayMessages = () => {
         return (
             <div>
-                {this.state.messages.map(msg => {
-                    return (
-                        <div>
-                            {this.state.name == msg.name ?
-                                <div>
-                                    <p className="title1">{msg.name}: {msg.message}</p><br/>
-                                </div> :
-                                <div>
-                                    <p className="title2">{msg.name}: {msg.message}</p><br/>
-                                </div>
-                            }
-                        </div>)
-                })}
+                    {this.state.messages.map(msg => {
+                        return (
+                            <div>
+                                {this.state.name == msg.name ?
+                                    <div>
+                                        <p className="title1"><b>{msg.name}:</b></p><br/>
+                                        <p id="actualText">{msg.message}</p>
+                                    </div> :
+                                    <div>
+                                        <p className="title2"><b>{msg.name}:</b></p><br/>
+                                        <p id="actualText">{msg.message}</p>
+                                    </div>
+                                }
+                            </div>)
+                    })}
             </div>
         );
     };
@@ -78,6 +82,9 @@ class Chat extends Component {
                                             <tr>
                                                 <td>
                                                     <TextField id="outlined-basic" label="Enter Message to Send" variant="outlined"
+                                                               value={this.state.typedMessage}
+                                                               multiline
+                                                               maxRows={6}
                                                                onChange={(event) => {
                                                                    this.setState({typedMessage: event.target.value});
                                                                }}

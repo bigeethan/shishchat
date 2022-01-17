@@ -25,11 +25,16 @@
     display: flex;
     justify-content: left;
     margin: 0 auto;
-    height: 500px;
+    height: 450px;
     width: 750px;
     overflow-y: scroll;
-    overflow: hidden;
     word-break: break-all;
     word-wrap: break-word;
     border: black solid 1px;
+    white-space: pre-line;
+}
+
+#actualText {
+    text-align: left;
+    margin-left: 5px;
 }
