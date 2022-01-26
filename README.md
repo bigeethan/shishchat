@@ -7,3 +7,5 @@ Shishchat solves this problem. You get a full fledged social media web applicati
 Shishchat's frontend is made with React.js, the backend is made with Spring Boot and Java, and the database is made with Postgresql. 
 
 🇮🇳 🙂 🇮🇳
+
+(This project started off based on a joke with my friend, but it has turned into a serious project of mine)
