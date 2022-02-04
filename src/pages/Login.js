@@ -67,7 +67,7 @@ class Login extends Component {
         () => {
             console.log("Login Works");
             localStorage.setItem("user", JSON.stringify(this.state.username));
-            this.props.history.push("/home");
+            this.props.history.push("/profile");
         },
         error => {
           const resMessage =

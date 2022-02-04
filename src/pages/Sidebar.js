@@ -21,6 +21,8 @@ function Sidebar() {
         <li><Link to="/chat">Chat</Link></li>
         <li><Link to="/createpost">Create ShishPost</Link></li>
         <li><Link to="/about">About</Link></li>
+        <br/><br/>
+        <li><Link to="/profile">User Profile</Link></li>
         <li><Link to="/login"><a className="nav-link" onClick={logOut}>Log Out</a></Link></li>
       </ul>
     </nav>

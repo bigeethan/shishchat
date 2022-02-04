@@ -11,6 +11,8 @@ import AuthService from "./pages/AuthService";
 import User from "./pages/User";
 import Loading from "./pages/Loading";
 import Post from "./pages/Post";
+import Profile from "./pages/Profile";
+import EditProfile from "./pages/EditProfile";
 
 class App extends Component {
     render() {
@@ -24,6 +26,8 @@ class App extends Component {
                       <Route path="/chat" component={Chat} />
                       <Route path="/about" component={About} />
                       <Route path="/createpost" component={Post} />
+                      <Route path="/profile" component={Profile} />
+                      <Route path="/editprofile" component={EditProfile} />
                     </Switch>
                   </Router>
         )

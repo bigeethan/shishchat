@@ -35,22 +35,54 @@ class Chat extends Component {
             name: this.state.name,
             message: this.state.typedMessage
         }));
+        fetch('https://shishchat.herokuapp.com/addmessage', {
+                    method: "post",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: this.state.name,
+                        message: this.state.typedMessage
+                    })
+                })
+                .then((response) => response.json())
+                   .then((responseJson) => {
+                     console.log(responseJson);
+                   })
+                   .catch((error) => {
+                     console.error(error);
+                   });
         this.setState({typedMessage: ""});
     };
+
+    componentDidMount() {
+        fetch('https://shishchat.herokuapp.com/getmessages', {
+                    headers: {
+                        "Content-type": "application/json; charset=UTF-8"
+                    }
+                })
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this.setState({
+                            messages: json
+                        });
+                    });
+        console.log(this.state.messages);
+    }
 
     displayMessages = () => {
         return (
             <div>
                     {this.state.messages.map(msg => {
                         return (
-                            <div>
-                                {this.state.name == msg.name ?
+                            <div key={msg.id}>
+                                {this.state.name == msg.username ?
                                     <div>
-                                        <p className="title1"><b>{msg.name}:</b></p><br/>
+                                        <p className="title1"><b>{msg.username}:</b></p><br/>
                                         <p id="actualText">{msg.message}</p>
                                     </div> :
                                     <div>
-                                        <p className="title2"><b>{msg.name}:</b></p><br/>
+                                        <p className="title2"><b>{msg.username}:</b></p><br/>
                                         <p id="actualText">{msg.message}</p>
                                     </div>
                                 }
@@ -64,17 +96,20 @@ class Chat extends Component {
         return (
                 <div>
                     <Sidebar />
-                    <div className="align-center">
+                    <div className="top">
                         <h1>Shishchat</h1>
-                        <br/><br/>
+                        <h3>The top Shishir themed chatting service</h3>
                     </div>
+                    <br/>
                     <div className="align-center">
                         User: <p className="title1"> {this.state.name}</p>
                         <br/><br/>
                     </div>
+                    <img src="parrot-shishir.jpeg" className="one"></img>
                     <div className="messages">
                         {this.displayMessages()}
                     </div>
+                    <img src="parrot-shishir.jpeg" className="two"></img>
                     <br/><br/>
                     <div className="align-center">
                                         <br/><br/>

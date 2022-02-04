@@ -3,6 +3,7 @@
 }
 
 .top-page {
+    text-align: center;
     border: black solid 2px;
     width: 400px;
     margin: 0 auto;
@@ -14,6 +15,7 @@
     grid-gap: 200px;
     width: 1000px;
     margin: 0 auto;
+    z-index: -1;
 }
 
 .posts {
@@ -21,6 +23,7 @@
     border: 2px solid black;
     word-wrap: break-word;
     width: 400px;
+    z-index: -1;
 }
 
 #secret {

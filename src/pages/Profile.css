@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+}
+
+.top-page {
+    text-align: center;
+    border: black solid 2px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.bio {
+    border: black solid 1px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.bio p {
+    margin-left: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre-line;
+}

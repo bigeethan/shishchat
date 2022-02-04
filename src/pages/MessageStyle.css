@@ -16,6 +16,13 @@
     clear: both;
 }
 
+.top {
+    text-align: center;
+    border: black solid 2px;
+    width: 400px;
+    margin: 0 auto;
+}
+
 .align-center {
     display: flex;
     justify-content: center;
@@ -28,7 +35,6 @@
     height: 450px;
     width: 750px;
     overflow-y: scroll;
-    word-break: break-all;
     word-wrap: break-word;
     border: black solid 1px;
     white-space: pre-line;
@@ -37,4 +43,118 @@
 #actualText {
     text-align: left;
     margin-left: 5px;
+}
+
+.one {
+    left: 40px;
+    position: fixed;
+    top: 155px;
+    z-index: -1;
+}
+
+.two {
+    right: 40px;
+    position: fixed;
+    top: 155px;
+    z-index: -1;
+}
+
+@media screen and (max-width:1690px) {
+  .one {
+    width: 23%;
+  }
+
+  .two {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width:1650px) {
+  .one {
+    width: 22%;
+  }
+
+  .two {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width:1575px) {
+  .one {
+    width: 21%;
+    height: 450px;
+    top: 197.5px;
+  }
+
+  .two {
+    width: 21%;
+    height: 450px;
+    top: 197.5px;
+  }
+}
+
+@media screen and (max-width:1475px) {
+  .one {
+    width: 20%;
+    height: 350px;
+    top: 250px;
+  }
+
+  .two {
+    width: 20%;
+    height: 350px;
+    top: 250px;
+  }
+}
+
+@media screen and (max-width:1425px) {
+  .one {
+    width: 18%;
+    height: 350px;
+    top: 250px;
+  }
+
+  .two {
+    width: 18%;
+    height: 350px;
+    top: 250px;
+  }
+}
+
+@media screen and (max-width:1350px) {
+  .one {
+    width: 16%;
+    height: 350px;
+    top: 250px;
+  }
+
+  .two {
+    width: 16%;
+    height: 350px;
+    top: 250px;
+  }
+}
+
+@media screen and (max-width:1275px) {
+  .one {
+    width: 14%;
+    height: 300px;
+    top: 275px;
+  }
+
+  .two {
+    width: 14%;
+    height: 300px;
+    top: 275px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .one {
+    display: none;
+  }
+
+  .two {
+    display: none;
+  }
 }
