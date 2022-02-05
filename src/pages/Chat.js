@@ -51,7 +51,20 @@ class Chat extends Component {
                    })
                    .catch((error) => {
                      console.error(error);
-                   });
+                   })
+                .then(() => {
+                    fetch('https://shishchat.herokuapp.com/getmessages', {
+                        headers: {
+                            "Content-type": "application/json; charset=UTF-8"
+                        }
+                    })
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this.setState({
+                            messages: json
+                        });
+                    });
+                });
         this.setState({typedMessage: ""});
     };
 
