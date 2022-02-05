@@ -1,13 +1,11 @@
-It is client application for chat application. 
-Client makes request to websocket broker which is written in spring and establish full-duplex two way communication.
+🇮🇳 🙂 🇮🇳
 
-To start the project.
-1. Clone the repository
-2. npm install
-    to install the package dependencies specified in package.json
-3. npm start
-     to start the node server
+What have you noticed that's wrong with the world? A severe lack of Shishir. 😮
 
+Shishchat solves this problem. You get a full fledged social media web application capable of chatting with users, making posts, and editing a profile, all in a shishir themed environment! 🙌
 
-Code explanation is included in my article : 
-https://helptechcommunity.wordpress.com/2020/01/28/websocket-chat-application-using-spring-boot-and-react-js/
+This is the frontend and it's made with React.js. The backend is in another repository.
+
+🇮🇳 🙂 🇮🇳
+
+(This project started off based on a joke with my friend, but it has turned into a serious project of mine)
