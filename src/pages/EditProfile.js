@@ -93,7 +93,7 @@ class EditProfile extends Component {
                               }}
                             />
                           </Form>
-                        </div>
+                    </div>
             </div>
         );
     }

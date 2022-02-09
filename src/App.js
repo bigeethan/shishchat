@@ -13,6 +13,7 @@ import Loading from "./pages/Loading";
 import Post from "./pages/Post";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
+import Search from "./pages/Search";
 
 class App extends Component {
     render() {
@@ -25,9 +26,10 @@ class App extends Component {
                       <Route path="/home" component={Home} />
                       <Route path="/chat" component={Chat} />
                       <Route path="/about" component={About} />
-                      <Route path="/createpost" component={Post} />
+                      <Route path="/create-post" component={Post} />
                       <Route path="/profile" component={Profile} />
-                      <Route path="/editprofile" component={EditProfile} />
+                      <Route path="/search-user" component={Search} />
+                      <Route path="/edit-profile" component={EditProfile} />
                     </Switch>
                   </Router>
         )

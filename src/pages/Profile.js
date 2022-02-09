@@ -86,7 +86,7 @@ class Profile extends Component {
                 </div>
                 <div className="body">
                             <h1>{this.state.userinfo.username}</h1>
-                            <Link to="/editprofile">
+                            <Link to="/edit-profile">
                                 <button className="btn btn-primary btn-block"><span>Edit Profile</span></button>
                             </Link>
                             <h2>Bio</h2>
