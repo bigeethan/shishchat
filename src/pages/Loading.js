@@ -24,6 +24,9 @@ class Loading extends Component {
         return (
             <div>
                 <h3>Please enjoy this complimentary photo of Shishir while the web application loads</h3>
+                <div className="container">
+                    <div className="loading-spinner"></div>
+                </div>
                 <img src="Shishir.jpeg"></img>
                 {this.loading()}
             </div>

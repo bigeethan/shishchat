@@ -14,17 +14,29 @@ class Home extends Component {
     }
 
     componentDidMount() {
+        this.makeGetRequest();
+        this.timer = setInterval(() => {
+            this.makeGetRequest();
+            console.log("get request made");
+        }, 30000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timer);
+    }
+
+    makeGetRequest = () => {
         fetch('https://shishchat.herokuapp.com/getposts', {
-            headers: {
-                "Content-type": "application/json; charset=UTF-8"
-            }
-        })
-            .then((response) => response.json())
-            .then((json) => {
-                this.setState({
-                    posts: json
-                });
-            });
+                    headers: {
+                        "Content-type": "application/json; charset=UTF-8"
+                    }
+                })
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this.setState({
+                            posts: json
+                        });
+                    });
     }
 
     render() {
