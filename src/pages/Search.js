@@ -112,6 +112,8 @@ class Search extends Component {
                             {this.state.posts.map((posts) => (
                                 <div className='posts' key={posts.id}>
                                     <p id="user">{posts.user}</p>
+                                    <img src="graduated-shishir.jpg" id="shishir-approved-photo"></img>
+                                    <p id="shishir-approved-text">Shishir Approved</p>
                                     <p id="text">{posts.text}</p>
                                 </div>
                             ))}

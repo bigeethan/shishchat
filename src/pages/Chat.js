@@ -2,6 +2,7 @@ import React, {Component, useContext, useEffect, useRef} from 'react';
 import SockJsClient from 'react-stomp';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
+import { withStyles } from "@material-ui/core/styles";
 import './MessageStyle.css';
 import NameComponent from "./NameComponent";
 import Sidebar from "./Sidebar";
@@ -9,6 +10,12 @@ import Login from "./Login";
 import AuthService from "./AuthService";
 import User from "./User";
 import ScrollToBottom from 'react-scroll-to-bottom';
+
+const styles = {
+      input: {
+        color: "white"
+      }
+};
 
 class Chat extends Component {
     constructor(props) {
@@ -118,11 +125,9 @@ class Chat extends Component {
                         User: <p className="title1"> {this.state.name}</p>
                         <br/><br/>
                     </div>
-                    <img src="parrot-shishir.jpeg" className="one"></img>
                     <div className="messages">
                         {this.displayMessages()}
                     </div>
-                    <img src="parrot-shishir.jpeg" className="two"></img>
                     <br/><br/>
                     <div className="align-center">
                                         <br/><br/>
@@ -132,11 +137,14 @@ class Chat extends Component {
                                                     <TextField id="outlined-basic" label="Enter Message to Send" variant="outlined"
                                                                value={this.state.typedMessage}
                                                                multiline
+                                                               color="white"
                                                                maxRows={6}
                                                                onChange={(event) => {
                                                                    this.setState({typedMessage: event.target.value});
                                                                }}
-                                                               inputProps={{style: { textAlign: 'left', width: 650 }}}
+                                                               inputProps={{
+                                                                   style: { textAlign: 'left', width: 650 }
+                                                               }}
                                                                />
                                                 </td>
                                                 <td>
@@ -169,4 +177,4 @@ class Chat extends Component {
     }
 }
 
-export default Chat;
+export default withStyles(styles)(Chat);

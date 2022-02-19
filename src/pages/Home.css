@@ -37,6 +37,24 @@
     font-size: 25px;
     position: relative;
     top: -15px;
+    height: 5px;
+}
+
+#shishir-approved-photo {
+    height: 50px;
+    width: 40px;
+    position: relative;
+    left: 155.5px;
+    top: -40px;
+}
+
+#shishir-approved-text {
+    position: relative;
+    left: 320px;
+    top: -55px;
+    word-wrap: break-word;
+    width: 70px;
+    height: 0.1px;
 }
 
 #text {
